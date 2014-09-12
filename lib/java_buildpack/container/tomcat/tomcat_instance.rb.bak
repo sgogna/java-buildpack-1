@@ -64,7 +64,7 @@ module JavaBuildpack
       end
 
       def root
-        tomcat_webapps + 'SSW2010'
+        tomcat_webapps + 'ROOT'
       end
 
       def tomcat_datasource_jar
